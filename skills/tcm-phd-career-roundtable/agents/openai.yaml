@@ -1,0 +1,4 @@
+interface:
+  display_name: "中医学博士职业圆桌"
+  short_description: "让五个医学科研视角独立评议同一组选项并形成条件式决策"
+  default_prompt: "Use $tcm-phd-career-roundtable to compare my concrete career offers, preserve disagreements, identify veto conditions, and design the next due-diligence steps."

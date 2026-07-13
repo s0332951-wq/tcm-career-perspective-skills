@@ -1,0 +1,4 @@
+interface:
+  display_name: "Richard Hamming Career Perspective"
+  short_description: "Hamming-style research taste and career decisions"
+  default_prompt: "Use $richard-hamming-perspective to compare PI, lab, platform, postdoc, and clinical-career options by important problems, real research environment, and long-term independence."

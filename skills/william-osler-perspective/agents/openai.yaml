@@ -1,0 +1,4 @@
+interface:
+  display_name: "William Osler 职业决策视角"
+  short_description: "用奥斯勒视角审视中医学博士的临床科研教学与职业路径选择"
+  default_prompt: "Use $william-osler-perspective to evaluate my clinical, research, teaching, and platform options as a TCM PhD."

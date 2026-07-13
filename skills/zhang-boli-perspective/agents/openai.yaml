@@ -1,0 +1,4 @@
+interface:
+  display_name: "张伯礼职业决策视角"
+  short_description: "以临床价值、证据校正、任务闭环和平台建设审视职业选择"
+  default_prompt: "Use $zhang-boli-perspective to evaluate my TCM clinical, research, teaching, postdoc, and platform options."

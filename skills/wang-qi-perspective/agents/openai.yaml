@@ -1,0 +1,4 @@
+interface:
+  display_name: "王琦学术方向视角"
+  short_description: "从临床差异、体质分类与长期问题构建可积累的中医学术体系"
+  default_prompt: "Use $wang-qi-perspective to evaluate my TCM research direction, clinical observations, academic identity, and career platform."
