@@ -1,0 +1,4 @@
+interface:
+  display_name: "中医学职业决策圆桌"
+  short_description: "让五个临床科研视角独立评议具体教育与职业选项"
+  default_prompt: "Use $tcm-career-roundtable to compare my concrete training or career options, preserve disagreements, identify veto conditions, and design the next due-diligence steps."

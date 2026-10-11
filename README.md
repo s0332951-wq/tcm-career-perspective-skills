@@ -1,6 +1,6 @@
 # TCM Career Perspective Skills
 
-一组面向中医学博士职业决策的可运行 Codex Skills。仓库采用“人物视角独立保存 + 圆桌总控综合”的结构，避免把不同人物的判断混成一个模糊的万能顾问。
+一组面向中医学职业决策的可运行 Codex Skills，尤其适合研究生、规培医生、青年临床医生和科研人员。仓库采用“人物视角独立保存 + 圆桌总控综合”的结构，避免把不同人物的判断混成一个模糊的万能顾问。
 
 ## Included Skills
 
@@ -11,7 +11,7 @@
 | `zhang-boli-perspective` | 审视临床价值、守正创新、证据校正、任务闭环和平台建设 |
 | `william-osler-perspective` | 守住患者接触、床旁判断、医生身份及临床科研教学循环 |
 | `richard-hamming-perspective` | 判断重要且可攻的问题、优秀同行、问题所有权和长期独立性 |
-| `tcm-phd-career-roundtable` | 用统一事实卡让五个视角独立判断，再汇总共识、分歧和条件式排序 |
+| `tcm-career-roundtable` | 用统一事实卡让五个视角独立判断规培、临床、科研、教育等具体选项，再汇总共识、分歧和条件式排序 |
 
 `zhang-boli-perspective` 是内部终检分支规范化后的公开发行副本。早期实验分支不在本仓库发布，也不参与运行。
 
@@ -28,7 +28,7 @@ Copy-Item -Recurse .\skills\huang-luqi-perspective $skillsHome
 Copy-Item -Recurse .\skills\zhang-boli-perspective $skillsHome
 Copy-Item -Recurse .\skills\william-osler-perspective $skillsHome
 Copy-Item -Recurse .\skills\richard-hamming-perspective $skillsHome
-Copy-Item -Recurse .\skills\tcm-phd-career-roundtable $skillsHome
+Copy-Item -Recurse .\skills\tcm-career-roundtable $skillsHome
 ```
 
 也可以只安装单个人物 Skill，以获得更纯粹、可追溯的单视角建议。
@@ -44,7 +44,7 @@ Copy-Item -Recurse .\skills\tcm-phd-career-roundtable $skillsHome
 圆桌示例：
 
 ```text
-请使用 tcm-phd-career-roundtable。先把我的每个选项改写为具体 offer 包，列出缺失事实；再让五个视角基于同一事实卡独立判断，最后给出共识、关键分歧、否决条件、条件式排序和下一轮尽调问题。
+请使用 tcm-career-roundtable。先把我的每个选项改写为具体机会包，列出缺失事实；再让五个视角基于同一事实卡独立判断，最后给出共识、关键分歧、否决条件、条件式排序和下一轮尽调问题。
 ```
 
 ## Design Principles
@@ -67,7 +67,7 @@ python .\scripts\validate_skills.py
 
 ## Status
 
-建议先以私有仓库完成远端复核、来源抽查和前向测试，再由仓库所有者决定是否公开。实际发布状态以 GitHub 仓库可见性为准。
+本仓库已公开发布。提交会由 GitHub Actions 运行结构、链接、元数据与隐私风险模式校验；人物资料归属、政策时效性和个案化判断仍需人工复核。
 
 ## License And Notice
 

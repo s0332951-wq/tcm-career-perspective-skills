@@ -1,6 +1,6 @@
 # Validation Report
 
-Date: 2026-07-12
+Date: 2026-10-11
 
 ## Package Validation
 
@@ -8,7 +8,7 @@ The Codex `skill-creator` official `quick_validate.py` validator returned `Skill
 
 - `huang-luqi-perspective`
 - `richard-hamming-perspective`
-- `tcm-phd-career-roundtable`
+- `tcm-career-roundtable`
 - `wang-qi-perspective`
 - `william-osler-perspective`
 - `zhang-boli-perspective`
@@ -39,10 +39,10 @@ Pattern scanning reduces accidental disclosure but is not proof of anonymity. A 
 
 ## Remaining Manual Checks
 
-Before changing the GitHub repository from private to public:
+Before every public release:
 
 1. Spot-check cited links and quotation attribution.
 2. Re-run the three completed [roundtable forward tests](forward-tests.md) and add individual-persona negative-trigger tests.
 3. Review GitHub's rendered Markdown and repository file list.
 4. Confirm that no private consultation repository content was copied into this repository.
-5. Obtain the repository owner's explicit public-release decision.
+5. Confirm that the intended changes and repository visibility still match the owner's release decision.
